@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(54, 54, 54);
+    background-color: #2C444D;
+}
+
+header {
+    background: rgb(235, 231, 231);
+}
+
+.headline {
+    position: relative;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+    background: url('https://static.vecteezy.com/system/resources/previews/002/558/934/non_2x/black-and-white-modern-material-header-with-hexagonal-pattern-corporate-template-for-your-business-abstract-widescreen-banner-vector.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+ul {
+    float: right;
+    list-style: none;
+    padding: 25px;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    font-size: 0.9em;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    margin: 5px 0 0 20px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    z-index: 10;
+    transform: translateX(-50%) translateY(-50%);
+    animation: fade-in 0.75s 0.25s ease-in forwards;
+}
+
+.Titulo {
+    margin: 0;
+    font-size: 4em;
+    line-height: 1.2em;
+    color: rgb(130, 145, 134); 
+}
+h2{
+    font-style: italic;
+    font-family: serif;
+    color: rgb(130, 145, 134);
+}
+p {
+    margin: 0;
+    font-size: 1.4em;
+    font-style: italic;
+    font-family: serif;
+    color: rgb(130, 145, 134); 
+}
+img {
+    width: 500px;
+    height: 250px;
+}
+
+td {
+    width: 500px;
+    height: 250px;
+    font-size: 1.4em;
+    font-style: italic;
+    font-family: serif;
+    color: rgb(130, 145, 134);
+
+}
+.titulo-seccion{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+  footer .copy{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  .redes-sociales{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .redes-sociales i{
+    font-size: 30px;
+    padding: 0 20 px;
+    color: #ffffff;
+  }
