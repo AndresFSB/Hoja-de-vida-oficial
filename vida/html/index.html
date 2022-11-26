@@ -11,25 +11,40 @@
 </head>
 
 <body>
-        <div class="imgcontainer">
-            <img src="../img/img_avatar2.png" alt="Avatar" class="avatar">
+    <div class="imgcontainer">
+        <img src="../img/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <label for="usuario"><b>Usuario</b></label>
+        <input type="text" placeholder="Ingrese usuario" id="usuario" required>
+
+        <label for="password"><b>Contraseña</b></label>
+        <input type="password" placeholder="Ingrese contraseña" id="password" required>
+
+        <button type="button" onclick="login()">Ingresar</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancelar</button>
+        <span class="psw">Recuperar <a href="./Index.html">contraseña?</a></span>
+    </div>
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-seccion">
+                Contactame
+            </h2>
         </div>
-
-        <div class="container">
-            <label for="usuario"><b>Usuario</b></label>
-            <input type="text" placeholder="Ingrese usuario" id="usuario" required>
-
-            <label for="password"><b>Contraseña</b></label>
-            <input type="password" placeholder="Ingrese contraseña" id="password" required>
-
-            <button type="button" onclick="login()" >Ingresar</button>
+        <div class="redes-sociales">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
         </div>
-
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Cancelar</button>
-            <span class="psw">Recuperar <a href="./Index.html">contraseña?</a></span>
+        <div class="contenedor">
+            <p class="copy">@2022 Andres Felipe Suarez / Todos los derechos son reservados</p>
         </div>
-
+    </footer>
+    <script src="https://kit.fontawesome.com/bdbed0aafa.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

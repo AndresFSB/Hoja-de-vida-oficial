@@ -106,3 +106,24 @@ img{
     font-family: serif;
     color: rgb(130, 145, 134); 
 }
+.titulo-seccion{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+  footer .copy{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  .redes-sociales{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .redes-sociales i{
+    font-size: 30px;
+    padding: 0 20 px;
+    color: #ffffff;
+  }
+

@@ -8,6 +8,6 @@ function login(){
     window.location="./Principal.html"; 
     }   
     else{ 
-    alert("Contraseña incorrecta"); 
+    alert("Usuario y/o contraseña incorrecta"); 
     } 
     } 

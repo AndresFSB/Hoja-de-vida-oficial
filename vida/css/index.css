@@ -69,3 +69,22 @@ form {
       width: 100%;
     }
   }
+.titulo-seccion{
+    display: flex;
+    justify-content: center;
+}
+  footer .copy{
+    color: #000000;
+    display: flex;
+    justify-content: center;
+  }
+  .redes-sociales{
+    display: flex;
+    justify-content: center;
+  }
+  .redes-sociales i{
+    font-size: 30px;
+    padding: 0 20 px;
+  }
+
+  

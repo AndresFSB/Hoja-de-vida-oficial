@@ -62,7 +62,11 @@ a {
     line-height: 1.2em;
     color: rgb(130, 145, 134); 
 }
-
+h2{
+    font-style: italic;
+    font-family: serif;
+    color: rgb(130, 145, 134);
+}
 p {
     margin: 0;
     font-size: 1.4em;
@@ -84,3 +88,23 @@ td {
     color: rgb(130, 145, 134);
 
 }
+.titulo-seccion{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+  footer .copy{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  .redes-sociales{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .redes-sociales i{
+    font-size: 30px;
+    padding: 0 20 px;
+    color: #ffffff;
+  }
